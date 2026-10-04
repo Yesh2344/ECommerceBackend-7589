@@ -32,6 +32,7 @@ public:
 
 private:
     struct CartItem {
+// tiny readability tweak
         Product product;
         int quantity;
     };
