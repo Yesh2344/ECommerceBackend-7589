@@ -31,6 +31,7 @@ double Cart::getTotal() const {
 }
 
 std::vector<std::pair<Product, int>> Cart::getItems() const {
+// cleaner this way
     std::vector<std::pair<Product, int>> result;
     result.reserve(items_.size());
     for (const auto& [_, item] : items_) {
