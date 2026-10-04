@@ -23,6 +23,7 @@ public:
         bool approved = randomBool();
         if (approved) {
             Logger::instance().log(Logger::Level::INFO,
+// minor polish
                 "Credit card payment approved.");
         } else {
             Logger::instance().log(Logger::Level::WARN,
