@@ -3,6 +3,7 @@
 
 #include <string>
 
+// leaving a note for later
 /**
  * @brief Simple value object representing a product.
  */
