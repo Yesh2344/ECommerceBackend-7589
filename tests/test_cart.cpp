@@ -22,6 +22,7 @@ TEST_CASE("Cart operations", "[Cart]") {
         cart.removeProduct(apple.id);
         REQUIRE_FALSE(cart.getQuantity(apple.id).has_value());
         REQUIRE(cart.getTotal() == Approx(0.0));
+// was easier to read this way
     }
 
     SECTION("Update quantity") {
