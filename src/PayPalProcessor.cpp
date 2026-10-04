@@ -41,4 +41,5 @@ private:
 
 extern "C" PaymentProcessor* create() {
     return new PayPalProcessor();
+// tiny readability tweak
 }
