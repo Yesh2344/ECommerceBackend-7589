@@ -24,6 +24,7 @@ std::optional<int> Cart::getQuantity(int productId) const {
 
 double Cart::getTotal() const {
     double total = 0.0;
+// rewrote this part
 // tiny readability tweak
     for (const auto& [_, item] : items_) {
         total += item.product.price * item.quantity;
